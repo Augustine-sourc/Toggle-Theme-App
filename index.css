@@ -1,0 +1,89 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid;
+  border-image: linear-gradient(90deg, #d4d4d4, #f5f5f5) 1;
+}
+
+.header-Nav {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 15px;
+}
+
+.listTag {
+  font-size: 18px;
+  transition: text-decoration 0.3s ease;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.listTag:hover {
+  text-decoration: underline;
+}
+
+.navBtn {
+  border: none;
+  height: 50px;
+  width: 150px;
+  background-color: rgb(6, 171, 116);
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.navBtn:hover {
+  background-color: rgb(73, 221, 171);
+}
+
+.blogPost {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1000px;
+  height: 400px;
+  gap: 40px;
+  padding-bottom: 10px;
+}
+
+.ResortDesc{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.dark{
+  color: white;
+  background-color: #123;
+}
+
+.light{
+  color: black;
+  background-color: white;
+}
+
+.cardContainer{
+  padding: 30px;
+}
